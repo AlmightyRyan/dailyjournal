@@ -59,7 +59,13 @@ if (!isset($_SESSION['username'])) {
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="admin.php?page=article">Article</a>
-            </li> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admin.php?page=gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admin.php?page=user">User</a>
+            </li>  
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-info fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <?= $_SESSION['username']?>
